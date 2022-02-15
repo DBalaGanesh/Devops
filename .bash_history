@@ -55,3 +55,26 @@ git add .
 git commit -m "changes have made to all files" .
 git status
 git log
+ll
+touch file 3
+git add file3
+touch file3
+git add file3
+git commit file3
+ll
+git status
+git commit file3
+ll
+git staus
+git status
+git commit -m "changes are modified on file3" file3
+git status
+git restore file2
+git status
+git add .
+git status
+git commit -m "changes are modified on all files" .
+git status
+git remote add origin https://github.com/DBalaGanesh/devops2.git
+git branch
+git push -u origin master
